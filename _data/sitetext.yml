@@ -62,7 +62,7 @@ de: &DEFAULT_DE
       - title: "Selbstständig"
         year: "2021"
         desc: "Als Freelancer möchte ich Startups helfen, ihre Visionen zu verwirklichen"
-        image: assets/img/timeline/profil.jpg
+        image: ""
         alt:
         # you can enforce the alignment
         align: right
@@ -74,7 +74,7 @@ de: &DEFAULT_DE
     section: about
 
   clients:
-    section: clientes
+    section: clients
     max-height: 100px
     horizontal-scrolling: "yes" #"yes/no"
     list:
@@ -132,13 +132,15 @@ de: &DEFAULT_DE
     section: contact
     name: "Name*"
     name-validation: "Bitte gib deinen Namen an."
+    subject: "Betreff*"
+    subject-validation: "Bitte gib einen Betreff an."
     email: "Mail*"
     email-validation: "Bitte gib deine E-Mail-Adresse an."
     phone: "Telefon*"
     phone-validation: "Bitte gib deine Nummer an."
     message: "Nachricht*"
     message-validation: "Beschreibe kurz dein Projekt."
-    subject: "Kontakt aufnehmen"
+    title: "Kontakt aufnehmen"
     submit: "Senden"
 
   footer:
